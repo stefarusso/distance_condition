@@ -1,0 +1,228 @@
+! TRAVIS input file
+! Created with TRAVIS version compiled at Feb  2 2024 11:05:51
+! Source code version: Jul 29 2022
+! Input file written at Tue Oct  8 14:37:32 2024.
+! Use the advanced mode until the analysis selection menu (y/n)? [no] 
+y
+! Use these values (y) or enter different values (n)? [yes] 
+
+! Update cell geometry in every time step (i.e., NPT ensemble) (y) or use fixed cell (n)? [yes] 
+
+! Should the periodic box be multiplied (y/n)? [no] 
+
+! Exclude Al atoms from bond recognition (y/n)? [yes] 
+n
+! Execute molecule recognition for which time step (-1 = disable)? [0] 
+2334
+! Use spatial domain decomposition for faster mol. rec. (disable if there are problems) (y/n)? [yes] 
+
+! Use refined topological atom ordering (can take very long for large molecules) (y/n)? [yes] 
+
+! Show bond matrices only for first representant of each molecule type (y/n)? [yes] 
+
+! Show only bonds in the bond matrices (y/n)? [yes] 
+
+! Create images of the structural formulas (y/n)? [no] 
+
+! Accept these molecules (y) or change something (n)? [yes] 
+
+! Change the atom ordering in some molecule (y/n)? [no] 
+
+! Define additional virtual atoms (y/n)? [no] 
+
+! Do you want to define pseudo-molecules (y/n)? [no] 
+
+! Which functions to compute (comma separated)?
+cond
+! Use the advanced mode for the main part (y/n)? [no] 
+
+! Which of the molecules should be the reference molecule (Al2Cl7=1, AlCl4=2, AlCl3=3, C6F2H4=4, AlCl2=5, CH4N2O=6)? 
+6
+! Perform this observation intramolecular (within the reference molecule) (0) or intermolecular (1)? [1] 
+
+! Which molecule should be observed (Al2Cl7=1, AlCl4=2, AlCl3=3, C6F2H4=4, AlCl2=5, CH4N2O=6)? 
+1
+! Do you want to define a distance condition (y/n)? [yes] 
+
+! Which atom(s) to take from RM Al2Cl7 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Which atom(s) to take from OM Al2Cl7 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Enter another set of atoms for this condition (y/n)? [no] 
+
+! Enter min./max. distance (0) or min./max. nearest neighbor count (1)? [0] 
+
+! Enter the minimal distance in pm: [0] 
+
+! Enter the maximal distance in pm: [400] 
+600
+! Enter another distance interval (y/n)? [no] 
+
+! Do you want to define an angular condition (y/n)? [no] 
+
+! Save a snapshot every time the conditions are fulfilled (y/n)? [no] 
+
+! Save temporal development of this condition (y/n)? [yes] 
+
+! Record development up to how many OMs per RM? [6] 
+10
+! Add another observation (y/n)? [no] 
+y
+! Perform this observation intramolecular (within the reference molecule) (0) or intermolecular (1)? [1] 
+
+! Which molecule should be observed (Al2Cl7=1, AlCl4=2, AlCl3=3, C6F2H4=4, AlCl2=5, CH4N2O=6)? 
+2
+! Do you want to define a distance condition (y/n)? [yes] 
+
+! Which atom(s) to take from RM Al2Cl7 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Which atom(s) to take from OM AlCl4 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Enter another set of atoms for this condition (y/n)? [no] 
+
+! Enter min./max. distance (0) or min./max. nearest neighbor count (1)? [0] 
+
+! Enter the minimal distance in pm: [0] 
+
+! Enter the maximal distance in pm: [400] 
+600
+! Enter another distance interval (y/n)? [no] 
+
+! Do you want to define an angular condition (y/n)? [no] 
+
+! Save a snapshot every time the conditions are fulfilled (y/n)? [no] 
+
+! Save temporal development of this condition (y/n)? [yes] 
+
+! Record development up to how many OMs per RM? [6] 
+10
+! Add another observation (y/n)? [no] 
+y
+! Perform this observation intramolecular (within the reference molecule) (0) or intermolecular (1)? [1] 
+
+! Which molecule should be observed (Al2Cl7=1, AlCl4=2, AlCl3=3, C6F2H4=4, AlCl2=5, CH4N2O=6)? 
+3
+! Do you want to define a distance condition (y/n)? [yes] 
+
+! Which atom(s) to take from RM Al2Cl7 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Which atom(s) to take from OM AlCl3 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Enter another set of atoms for this condition (y/n)? [no] 
+
+! Enter min./max. distance (0) or min./max. nearest neighbor count (1)? [0] 
+
+! Enter the minimal distance in pm: [0] 
+
+! Enter the maximal distance in pm: [400] 
+600
+! Enter another distance interval (y/n)? [no] 
+
+! Do you want to define an angular condition (y/n)? [no] 
+
+! Save a snapshot every time the conditions are fulfilled (y/n)? [no] 
+
+! Save temporal development of this condition (y/n)? [yes] 
+
+! Record development up to how many OMs per RM? [6] 
+10
+! Add another observation (y/n)? [no] 
+y
+! Perform this observation intramolecular (within the reference molecule) (0) or intermolecular (1)? [1] 
+
+! Which molecule should be observed (Al2Cl7=1, AlCl4=2, AlCl3=3, C6F2H4=4, AlCl2=5, CH4N2O=6)? 
+4
+! Do you want to define a distance condition (y/n)? [yes] 
+
+! Which atom(s) to take from RM Al2Cl7 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Which atom(s) to take from OM C6F2H4 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Enter another set of atoms for this condition (y/n)? [no] 
+
+! Enter min./max. distance (0) or min./max. nearest neighbor count (1)? [0] 
+
+! Enter the minimal distance in pm: [0] 
+
+! Enter the maximal distance in pm: [400] 
+600
+! Enter another distance interval (y/n)? [no] 
+
+! Do you want to define an angular condition (y/n)? [no] 
+
+! Save a snapshot every time the conditions are fulfilled (y/n)? [no] 
+
+! Save temporal development of this condition (y/n)? [yes] 
+
+! Record development up to how many OMs per RM? [6] 
+10
+! Add another observation (y/n)? [no] 
+y
+! Perform this observation intramolecular (within the reference molecule) (0) or intermolecular (1)? [1] 
+
+! Which molecule should be observed (Al2Cl7=1, AlCl4=2, AlCl3=3, C6F2H4=4, AlCl2=5, CH4N2O=6)? 
+5
+! Do you want to define a distance condition (y/n)? [yes] 
+
+! Which atom(s) to take from RM Al2Cl7 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Which atom(s) to take from OM AlCl2 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Enter another set of atoms for this condition (y/n)? [no] 
+
+! Enter min./max. distance (0) or min./max. nearest neighbor count (1)? [0] 
+
+! Enter the minimal distance in pm: [0] 
+
+! Enter the maximal distance in pm: [400] 
+600
+! Enter another distance interval (y/n)? [no] 
+
+! Do you want to define an angular condition (y/n)? [no] 
+
+! Save a snapshot every time the conditions are fulfilled (y/n)? [no] 
+
+! Save temporal development of this condition (y/n)? [yes] 
+
+! Record development up to how many OMs per RM? [6] 
+10
+! Add another observation (y/n)? [no] 
+y
+! Perform this observation intramolecular (within the reference molecule) (0) or intermolecular (1)? [1] 
+
+! Which molecule should be observed (Al2Cl7=1, AlCl4=2, AlCl3=3, C6F2H4=4, AlCl2=5, CH4N2O=6)? 
+6
+! Do you want to define a distance condition (y/n)? [yes] 
+
+! Which atom(s) to take from RM Al2Cl7 (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Which atom(s) to take from OM CH4N2O (e.g. "C1,C3-5,H", "*"=all)? [#2]
+
+! Enter another set of atoms for this condition (y/n)? [no] 
+
+! Enter min./max. distance (0) or min./max. nearest neighbor count (1)? [0] 
+
+! Enter the minimal distance in pm: [0] 
+
+! Enter the maximal distance in pm: [400] 
+600
+! Enter another distance interval (y/n)? [no] 
+
+! Do you want to define an angular condition (y/n)? [no] 
+
+! Save a snapshot every time the conditions are fulfilled (y/n)? [no] 
+
+! Save temporal development of this condition (y/n)? [yes] 
+
+! Record development up to how many OMs per RM? [6] 
+20
+! Add another observation (y/n)? [no] 
+
+! Skip repeated time steps (y/n)? [no] 
+
+! In which trajectory frame to start processing the trajectory? [1] 
+2
+! How many trajectory frames to read (from this position on)? [all] 
+
+! Use every n-th read trajectory frame for the analysis: [1] 
+
